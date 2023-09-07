@@ -2,48 +2,47 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 
+                Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .home-in {
-    
     width: 100%;
-    height: 100vh;
     height: fit-content;
     display: flex;
-    
 }
+
 .nav-container {
-    
     width: 25%;
     height: fit-content;
-
 }
 
 .main-container {
-    
     width: 75%;
-    height: 53vw;
+    height: fit-content;
+    border: 2px solid black;
 }
+
 .nav-header {
-    border:2px solid black;
-    height: 8vw;
+    height: fit-content;
     background-color: black;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 43px;
 }
 
 .nav-one {
-    height: 5vw;
-    background-color: rgb(27,111,245);
+    height: fit-content;
+    background-color: rgb(27, 111, 245);
     border-bottom: 1px solid white;
     color: white;
-    font-size: 22px;
+    font-size: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 28px;
 }
 
 .nav-one a {
@@ -54,26 +53,15 @@
 .nav-one a:hover {
     color: black;
     text-decoration: underline;
-
 }
+
 .footer-container {
-    height: 2vw;
+    height: fit-content;
     border: 2px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.main-container {
-  height: 100vh;
-}
-
-.main-container-in h1 {
-    display: flex;
-    align-items: center;
-    justify-self: center;
-    height: 100vh;
-
+    padding: 5px;
 }
 
 
